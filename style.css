@@ -1,0 +1,43 @@
+main {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 2px;
+    border-radius: 50%;
+    border: none;
+}
+button:hover{
+    color: slategray;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.95);
+}
+.keypad {
+    width:300px;
+}
+#display {
+    width: 225px;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: none;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #747474cc;
+    white-space: nowrap;
+}
+.function {
+    background-color: #f0ad4e;
+    color: black;
+}
+.number {
+    background-color: #dadada;
+}
